@@ -71,8 +71,14 @@ def make_1d_array(values):
     a = np.array(values)
     return a
 
-# Step 9 - get_array_shape (not yet solved)
-# TODO: implement
+# Step 9 - get_array_shape
+import numpy as np
+
+def get_array_shape(arr):
+    """Return the shape tuple of a NumPy array."""
+    # TODO: return the shape of arr
+    shape = np.shape(arr)
+    return shape
 
 # Step 10 - get_array_dtype (not yet solved)
 # TODO: implement
