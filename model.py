@@ -197,20 +197,43 @@ def sum_all(arr):
     # TODO: collapse every element of arr into a single scalar total
     return np.sum(arr)
 
-# Step 24 - sum_axis0 (not yet solved)
-# TODO: implement
+# Step 24 - sum_axis0
+import numpy as np
 
-# Step 25 - sum_axis1 (not yet solved)
-# TODO: implement
+def sum_axis0(arr):
+    """Sum a 2D array along axis 0, collapsing rows into a 1D vector of column sums."""
+    # TODO: reduce the row dimension of arr so the result has shape (C,).
+    return np.sum(arr, axis = 0)
 
-# Step 26 - max_along_axis (not yet solved)
-# TODO: implement
+# Step 25 - sum_axis1
+import numpy as np
 
-# Step 27 - matmul (not yet solved)
-# TODO: implement
+def sum_axis1(arr):
+    """Sum a 2D array along axis 1, returning a 1D array of row sums."""
+    # TODO: collapse the column dimension by summing each row
+    return np.sum(arr,axis = 1)
 
-# Step 28 - transpose_matrix (not yet solved)
-# TODO: implement
+# Step 26 - max_along_axis
+import numpy as np
+
+def max_along_axis(arr, axis):
+    """Return the maximum of arr along the given axis, with that axis removed."""
+    # TODO: compute the maximum value of arr along the given axis
+    return np.max(arr,axis = axis)
+
+# Step 27 - matmul
+import numpy as np
+
+def matmul(a, b):
+    """Return the matrix product a @ b for 2D arrays a (M,K) and b (K,N)."""
+    # TODO: compute the matrix product of a and b
+    return a @ b
+
+# Step 28 - transpose_matrix
+def transpose_matrix(arr):
+    """Return the transpose of a 2D array."""
+    # TODO: return the transpose of arr using the .T attribute
+    return arr.T
 
 # Step 29 - sum_keepdims (not yet solved)
 # TODO: implement

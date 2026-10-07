@@ -33,11 +33,11 @@ python scaffold.py
 - [x] **21.** array_exp
 - [x] **22.** array_log
 - [x] **23.** sum_all
-- [ ] **24.** sum_axis0
-- [ ] **25.** sum_axis1
-- [ ] **26.** max_along_axis
-- [ ] **27.** matmul
-- [ ] **28.** transpose_matrix
+- [x] **24.** sum_axis0
+- [x] **25.** sum_axis1
+- [x] **26.** max_along_axis
+- [x] **27.** matmul
+- [x] **28.** transpose_matrix
 - [ ] **29.** sum_keepdims
 - [ ] **30.** naive_softmax_1d
 - [ ] **31.** softmax_overflow_demo
