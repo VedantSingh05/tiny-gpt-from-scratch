@@ -254,8 +254,17 @@ def naive_softmax_1d(logits):
     probability = num/den
     return probability
 
-# Step 31 - softmax_overflow_demo (not yet solved)
-# TODO: implement
+# Step 31 - softmax_overflow_demo
+def softmax_overflow_demo(large_value):
+    """Show that naive exp overflows on a large logit.
+
+    Return {'naive_exp': float, 'overflowed': bool}.
+    """
+    # TODO: exponentiate large_value via array_exp and report whether it is inf.
+    exp = np.exp(large_value)
+    is_inf = np.isinf(exp)
+    dict = {"naive_exp": exp ,"overflowed": is_inf}
+    return dict
 
 # Step 32 - stable_softmax_1d (not yet solved)
 # TODO: implement
