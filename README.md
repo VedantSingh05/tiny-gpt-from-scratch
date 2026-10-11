@@ -46,8 +46,8 @@ python scaffold.py
 - [x] **34.** read_text_file
 - [x] **35.** encode_corpus_to_int_array
 - [x] **36.** pick_split_point
-- [ ] **37.** slice_train_and_val
-- [ ] **38.** pick_block_size
+- [x] **37.** slice_train_and_val
+- [x] **38.** pick_block_size
 - [ ] **39.** slice_x_at_offset
 - [ ] **40.** slice_y_at_offset
 - [ ] **41.** sample_random_batch_offsets
