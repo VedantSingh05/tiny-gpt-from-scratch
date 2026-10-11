@@ -297,8 +297,16 @@ def stable_softmax_2d_rowwise(logits):
     # 5. Divide exponentiated values by the sum to get probabilities
     return exp_logits / sum_exp
 
-# Step 34 - read_text_file (not yet solved)
-# TODO: implement
+# Step 34 - read_text_file
+def read_text_file(text_blob):
+    """Return text_blob unchanged after validating it is a non-empty string."""
+    # TODO: validate that text_blob is a non-empty str and return it as the corpus string
+    if text_blob == "":
+        raise ValueError("text_blob cannot be empty")
+    elif type(text_blob) != str:
+        raise TypeError("text_blob must be string")
+    else:
+         return text_blob
 
 # Step 35 - encode_corpus_to_int_array (not yet solved)
 # TODO: implement
